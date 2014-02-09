@@ -1,0 +1,4 @@
+www/*
+logs/*.rb
+.DS_Store
+.vagrant
