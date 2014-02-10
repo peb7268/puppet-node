@@ -15,12 +15,18 @@ class { 'bootstrap':
       stage => premain,
 }
 
+class { 'ruby':
+    stage => postmain
+}
+
 include bootstrap   	#Sets the fullyqualified domain name and some basics
 include other       	#curl and sqlite
 include stdlib          #nodejs dep
 include apt             #nodejs dep
 
 include rvm
+include ruby            #Puppet Equivilant of a Gemfile
+
 include php
 include php55
 include mysql

@@ -3,7 +3,6 @@
 #rvm use ruby-1.9.3-p484 --install --default
 
 class rvm($version=undef, $install_rvm=true) {
-	#stage { 'rvm-install': before => Stage['main'] }
 	stage { 'rvm-install': before => Stage['postmain'] }
 
 	if $install_rvm {
@@ -28,22 +27,6 @@ class rvm($version=undef, $install_rvm=true) {
 		exec { "use the ice gemset":
 			command =>"/usr/local/rvm/bin/rvm use 1.9.3@ice",
 			require => Exec['create the default gemset']
-		}
-
-		#Install Deps
-		exec { "install deps":
-			command => "/bin/sh -c 'sudo /usr/local/rvm/gems/ruby-1.9.3-p484@global/bin/bundle install'",
-			require => Exec['create the default gemset'],
-			timeout => 0,
-			logoutput => true
-		}
-
-		#Install some gems
-		rvm_gem { 'sass':
-		    name => 'sass',
-		    ruby_version => 'ruby-1.9.3-p484',
-		    ensure => latest,
-		    require => Rvm_system_ruby['ruby-1.9.3-p484'];
 		}
 	}
 }
