@@ -23,31 +23,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Vagrantfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vagrantfile">
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="9" selection-start="759" selection-end="759" vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="486">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="init.pp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="init.pp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/puppet/manifests/init.pp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="21" selection-start="653" selection-end="653" vertical-scroll-proportion="0.35211268" vertical-offset="117" max-vertical-offset="774">
+            <state line="14" column="22" selection-start="396" selection-end="396" vertical-scroll-proportion="-10.08" vertical-offset="0" max-vertical-offset="684">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="init.pp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/puppet/modules/rvm/manifests/init.pp">
+        <entry file="file://$PROJECT_DIR$/puppet/modules/php/manifests/init.pp">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="25" selection-start="244" selection-end="255" vertical-scroll-proportion="-3.6" vertical-offset="0" max-vertical-offset="990">
+            <state line="25" column="24" selection-start="518" selection-end="518" vertical-scroll-proportion="9.634615" vertical-offset="951" max-vertical-offset="1566">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init.pp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/puppet/modules/other/manifests/init.pp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="13" selection-start="320" selection-end="320" vertical-scroll-proportion="-5.04" vertical-offset="0" max-vertical-offset="252">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init.pp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/puppet/modules/bootstrap/manifests/init.pp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="12" selection-start="329" selection-end="343" vertical-scroll-proportion="-7.2" vertical-offset="0" max-vertical-offset="414">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init.pp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/puppet/modules/php55/manifests/init.pp">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="20" selection-start="348" selection-end="348" vertical-scroll-proportion="0.37261146" vertical-offset="0" max-vertical-offset="628">
               <folding />
             </state>
           </provider>
@@ -90,6 +111,10 @@
         <option value="$PROJECT_DIR$/puppet/modules/rvm/manifests/init.pp" />
         <option value="$PROJECT_DIR$/Vagrantfile" />
         <option value="$PROJECT_DIR$/puppet/manifests/init.pp" />
+        <option value="$PROJECT_DIR$/puppet/modules/bootstrap/manifests/init.pp" />
+        <option value="$PROJECT_DIR$/puppet/modules/php55/manifests/init.pp" />
+        <option value="$PROJECT_DIR$/puppet/modules/other/manifests/init.pp" />
+        <option value="$PROJECT_DIR$/puppet/modules/php/manifests/init.pp" />
       </list>
     </option>
   </component>
@@ -190,6 +215,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php55" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="manifests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -204,7 +237,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="logs" />
+              <option name="myItemId" value="puppet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -301,16 +338,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/puppet/modules/php/manifests/init.pp">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="5" selection-start="1644" selection-end="2048" vertical-scroll-proportion="0.87460816" vertical-offset="630" max-vertical-offset="1566">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/puppet/modules/js/templates/package.json.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="345" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="703">
@@ -383,19 +410,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logs/provision.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="219" column="46" selection-start="15658" selection-end="15658" vertical-scroll-proportion="4.382609" vertical-offset="918" max-vertical-offset="4446">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vagrantfile">
+    <entry file="file://$PROJECT_DIR$/puppet/modules/js/manifests/init.pp">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="9" selection-start="759" selection-end="759" vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="486">
+        <state line="17" column="12" selection-start="492" selection-end="492" vertical-scroll-proportion="-12.24" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puppet/modules/intengo/manifests/init.pp">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
           <folding />
         </state>
       </provider>
@@ -407,26 +437,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/puppet/modules/js/manifests/init.pp">
+    <entry file="file://$PROJECT_DIR$/Vagrantfile">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="12" selection-start="492" selection-end="492" vertical-scroll-proportion="-12.24" vertical-offset="0" max-vertical-offset="612">
+        <state line="18" column="8" selection-start="758" selection-end="758" vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="486">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puppet/modules/other/manifests/init.pp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="320" selection-end="320" vertical-scroll-proportion="-5.04" vertical-offset="0" max-vertical-offset="252">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puppet/modules/bootstrap/manifests/init.pp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="12" selection-start="329" selection-end="343" vertical-scroll-proportion="-7.2" vertical-offset="0" max-vertical-offset="414">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/puppet/modules/rvm/manifests/init.pp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="25" selection-start="244" selection-end="255" vertical-scroll-proportion="-3.6" vertical-offset="0" max-vertical-offset="990">
+        <state line="5" column="25" selection-start="244" selection-end="255" vertical-scroll-proportion="0.14018692" vertical-offset="0" max-vertical-offset="990">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/puppet/manifests/init.pp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="21" selection-start="653" selection-end="653" vertical-scroll-proportion="0.35211268" vertical-offset="117" max-vertical-offset="774">
+        <state line="14" column="22" selection-start="396" selection-end="396" vertical-scroll-proportion="-10.08" vertical-offset="0" max-vertical-offset="684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puppet/modules/php/manifests/init.pp">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="24" selection-start="518" selection-end="518" vertical-scroll-proportion="9.634615" vertical-offset="951" max-vertical-offset="1566">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puppet/modules/php55/manifests/init.pp">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="20" selection-start="348" selection-end="348" vertical-scroll-proportion="0.37261146" vertical-offset="0" max-vertical-offset="628">
           <folding />
         </state>
       </provider>

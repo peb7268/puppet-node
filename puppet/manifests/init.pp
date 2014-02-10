@@ -1,8 +1,3 @@
-#http://docs.puppetlabs.com/references/latest/type.html#exec
-#rm -rf .vagrant/ www/ logs/ && mkdir www logs
-#This is the default puppet file. It gits ran first and start the provisioning sequence.
-#Add your creds to the git pull if using the intengo module
-
 # Enable XDebug ("0" | "1")
 $use_xdebug = "0"
 
@@ -11,14 +6,14 @@ Exec {
   path => ["/usr/bin", "/bin", "/usr/sbin", "/sbin", "/usr/local/bin", "/usr/local/sbin", "/usr/local/rvm/bin/rvm"]
 }
 
-exec { 'apt-get update':
-        command => '/usr/bin/apt-get update',
-        require => Exec['add php55 apt-repo']
-}
-
 #Define the stages and order them
+stage { 'premain': }
 stage { 'postmain': }
-Stage['main'] -> Stage['postmain']
+Stage['premain'] -> Stage['main'] -> Stage['postmain']
+
+class { 'bootstrap':
+      stage => premain,
+}
 
 include bootstrap   	#Sets the fullyqualified domain name and some basics
 include other       	#curl and sqlite

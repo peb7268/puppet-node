@@ -3,8 +3,13 @@
 #http://docs.puppetlabs.com/facter/latest/core_facts.html#fqdn
 
 class bootstrap {
+
     group { "puppet":
         ensure => "present",
+    }
+
+    exec { 'apt-get update':
+            command => '/usr/bin/apt-get update',
     }
 
     if $virtual == "virtualbox" and $fqdn == '' {

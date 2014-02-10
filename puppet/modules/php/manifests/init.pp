@@ -23,7 +23,7 @@ class php
     package {
         $packages:
             ensure  => latest,
-            require => [Exec['apt-get update'], Exec['php55 apt update']]
+            require => [Exec['php55 apt update']]
     }
 
     exec { "Install PHPUnit":

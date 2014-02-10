@@ -16,6 +16,6 @@ Vagrant.configure("2") do |config|
 		puppet.manifests_path 	= "/Users/peb7268/Desktop/dev/vagrant/backbone_require/puppet/manifests/"
         puppet.manifest_file  	= "init.pp"
         puppet.module_path 		= "/Users/peb7268/Desktop/dev/vagrant/backbone_require/puppet/modules/"
-        #puppet.options 			= "--verbose --debug"
+        puppet.options 			= "--verbose --debug"
 	end
 end
